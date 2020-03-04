@@ -1,0 +1,8 @@
+a {
+  color: $link-blue;
+  text-decoration: none;
+
+  &:hover {
+    color: $queens-red;
+  }
+}

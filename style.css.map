@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"sass/style.scss",
+		"sass/_vars.scss",
+		"sass/_global.scss",
+		"sass/_header.scss",
+		"sass/_main.scss",
+		"sass/_footer.scss"
+	],
+	"names": [],
+	"mappings": "AAAA;;;;;;EAME;AENF,AAAA,CAAC,CAAC;EACA,KAAK,EDOK,OAAO;ECNjB,eAAe,EAAE,IAAI,GAKtB;EAPD,AAIE,CAJD,AAIE,MAAM,CAAC;IACN,KAAK,EDHI,OAAO,GCIjB;;AENH,AACE,aADW,CACX,YAAY;AADd,aAAa,CAEX,EAAE;AAFJ,aAAa,CAGX,EAAE;AAHJ,aAAa,CAIX,EAAE;AAJJ,aAAa,CAKX,EAAE;AALJ,aAAa,CAMX,EAAE;AANJ,aAAa,CAOX,EAAE,CAAC;EACD,KAAK,EHPK,OAAO,GGQlB"
+}
