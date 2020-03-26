@@ -1,3 +1,18 @@
-// #masthead {
-//   border-bottom: 3px solid $queens-blue;
-// }
+#site-header {
+  border-bottom: 1px solid $qul-gray;
+
+  .site-title a {
+    color: $queens-blue;
+  }
+
+  // use custom colour in theme options instead
+  // body:not(.overlay-header) .primary-menu > li > a {
+  //   color: $link-blue;
+
+  //   &:hover {
+  //     color: $queens-red;
+  //   }
+  // }
+
+}
+

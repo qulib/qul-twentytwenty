@@ -9,6 +9,10 @@
     color: $queens-blue;
   }
 
+  .post-inner {
+    padding-top: 0 !important;
+  }
+
   // .entry-content {
   //   blockquote {
   //     background: url("images/blockquote.svg") no-repeat;
@@ -22,4 +26,30 @@
   //     }
   //   }
   // }
+
+  // for the Display Posts plugin
+  .display-posts-listing {
+
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+
+    .title {
+      display: block;
+      font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+      font-weight: bold;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+
+
+    @media (min-width: 700px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
 }

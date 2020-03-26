@@ -17,27 +17,19 @@
 
   <div class="section-inner">
 
-    <div class="footer-credits">
 
-      <a href="https://library.queensu.ca">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/qul-logo-long.svg" width="465" height="69" alt="Queen's University Library Home"></a>
 
-    </div><!-- .footer-credits -->
+      <a href="https://virtual-exhibits.library.queensu.ca/">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/qul-logo-ve.svg" width="465" height="69" alt="Queen's University Library Virtual Exhibits"></a>
 
-    <a class="to-the-top" href="#site-header">
-      <span class="to-the-top-long">
-        <?php
-        /* translators: %s: HTML character for up arrow */
-        printf(__('To the top %s', 'twentytwenty'), '<span class="arrow" aria-hidden="true">&uarr;</span>');
-        ?>
-      </span><!-- .to-the-top-long -->
-      <span class="to-the-top-short">
-        <?php
-        /* translators: %s: HTML character for up arrow */
-        printf(__('Up %s', 'twentytwenty'), '<span class="arrow" aria-hidden="true">&uarr;</span>');
-        ?>
-      </span><!-- .to-the-top-short -->
-    </a><!-- .to-the-top -->
+      <a href="https://queensu.ca">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/qu-logo.svg" width="200" height="152" alt="Queen's University Home">
+      </a>
+
+
+
+
+
 
   </div><!-- .section-inner -->
 

@@ -1,15 +1,23 @@
 /*
- Theme Name:   QUL Twenty Twenty
- Description:  Twenty Twenty Child Theme for QUL
+ Theme Name:   Museum of Near Eastern Archaeology VE
+ Description:  QUL Twenty Twenty Child Theme for Virtual Exhibit
  Author:       Paul Clifford
  Template:     twentytwenty
  Version:      1.0.0
 */
+body {
+  background-color: white; }
+
 a {
   color: #1d70ad;
   text-decoration: none; }
   a:hover {
     color: #b81237; }
+
+#site-header {
+  border-bottom: 1px solid #8c8c8c; }
+  #site-header .site-title a {
+    color: #002f5e; }
 
 #site-content .entry-title,
 #site-content h1,
@@ -19,4 +27,42 @@ a {
 #site-content h5,
 #site-content h6 {
   color: #002f5e; }
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyIsInNhc3MvX2dsb2JhbC5zY3NzIiwic2Fzcy9fdmFycy5zY3NzIiwic2Fzcy9fbWFpbi5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7Q0NNQztBQ05EO0VBQ0UsY0NPaUI7RUROakIscUJBQXFCLEVBQUE7RUFGdkI7SUFLSSxjQ0hnQixFQUFBOztBQ0ZwQjs7Ozs7OztFQVFJLGNEUGlCLEVBQUEiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
+
+#site-content .post-inner {
+  padding-top: 0 !important; }
+
+#site-content .display-posts-listing {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem; }
+  #site-content .display-posts-listing .title {
+    display: block;
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold; }
+  #site-content .display-posts-listing img {
+    display: block;
+    max-width: 100%;
+    height: auto; }
+  @media (min-width: 700px) {
+    #site-content .display-posts-listing {
+      grid-template-columns: repeat(3, 1fr); } }
+
+#site-footer {
+  border-top: 1px solid #8c8c8c; }
+  #site-footer .section-inner {
+    display: flex;
+    align-items: center; }
+    #site-footer .section-inner img {
+      padding: 0 2rem; }
+
+.search .post-meta {
+  display: none; }
+
+.single .post-meta,
+.single .entry-categories {
+  display: none; }
+
+.category .post-meta {
+  display: none; }
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyIsInNhc3MvX2dsb2JhbC5zY3NzIiwic2Fzcy9fdmFycy5zY3NzIiwic2Fzcy9faGVhZGVyLnNjc3MiLCJzYXNzL19tYWluLnNjc3MiLCJzYXNzL19mb290ZXIuc2NzcyIsInNhc3MvX3NlYXJjaC5zY3NzIiwic2Fzcy9fc2luZ2xlLnNjc3MiLCJzYXNzL19jYXRlZ29yeS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7Q0NNQztBQ05EO0VBQ0UsdUJBQXVCLEVBQUE7O0FBSXpCO0VBQ0UsY0NFaUI7RUREakIscUJBQXFCLEVBQUE7RUFGdkI7SUFLSSxjQ1JnQixFQUFBOztBQ0ZwQjtFQUNFLGdDREtnQixFQUFBO0VDTmxCO0lBSUksY0RIaUIsRUFBQTs7QUVEckI7Ozs7Ozs7RUFRSSxjRlBpQixFQUFBOztBRURyQjtFQVlJLHlCQUF5QixFQUFBOztBQVo3QjtFQWdDSSxnQkFBZ0I7RUFDaEIsYUFBYTtFQUNiLHFDQUFxQztFQUNyQyxjQUFjLEVBQUE7RUFuQ2xCO0lBc0NNLGNBQWM7SUFDZCxvR0FBb0c7SUFDcEcsaUJBQWlCLEVBQUE7RUF4Q3ZCO0lBNENNLGNBQWM7SUFDZCxlQUFlO0lBQ2YsWUFBWSxFQUFBO0VBSWQ7SUFsREo7TUFtRE0scUNBQXFDLEVBQUEsRUFFeEM7O0FDckRIO0VBQ0UsNkJIS2dCLEVBQUE7RUdObEI7SUFJSSxhQUFhO0lBQ2IsbUJBQW1CLEVBQUE7SUFMdkI7TUFRTSxlQUFlLEVBQUE7O0FDUnJCO0VBR0ksYUFBYSxFQUFBOztBQ0hqQjs7RUFHSSxhQUFhLEVBQUE7O0FDSGpCO0VBR0ksYUFBYSxFQUFBIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
