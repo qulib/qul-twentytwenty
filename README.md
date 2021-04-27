@@ -1,4 +1,4 @@
-# qul-twentynineteen
+# qul-twentytwenty
 
 A WordPress Twenty Twenty child theme for QUL
 
